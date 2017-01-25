@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>302306352239-o99iq83lgnaj1dd9meqap9ap6hbs1odc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.302306352239-o99iq83lgnaj1dd9meqap9ap6hbs1odc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyACh5phSc-wMLtXmyBMoJ5kfQZg0JGXUCs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>302306352239</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>de.nikd.firebaseRealtimeDatabase</string>
+	<key>PROJECT_ID</key>
+	<string>alive-2134d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>alive-2134d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:302306352239:ios:9fbe631497fe2e1e</string>
+	<key>DATABASE_URL</key>
+	<string>https://alive-2134d.firebaseio.com</string>
+</dict>
+</plist>

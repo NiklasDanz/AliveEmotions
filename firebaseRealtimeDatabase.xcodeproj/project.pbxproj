@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EBE0D7B0CE78318A0B37BF1 /* Pods_firebaseRealtimeDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC934E909B63FDF209D0FC31 /* Pods_firebaseRealtimeDatabase.framework */; };
+		6B261E3A1DFAD94000D906CB /* ShowEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B261E391DFAD94000D906CB /* ShowEmojiViewController.swift */; };
 		6B76E9221DF6E95B00DC7055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B76E9211DF6E95B00DC7055 /* AppDelegate.swift */; };
 		6B76E9241DF6E95B00DC7055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B76E9231DF6E95B00DC7055 /* ViewController.swift */; };
 		6B76E9271DF6E95B00DC7055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B76E9251DF6E95B00DC7055 /* Main.storyboard */; };
 		6B76E9291DF6E95B00DC7055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B76E9281DF6E95B00DC7055 /* Assets.xcassets */; };
 		6B76E92C1DF6E95B00DC7055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B76E92A1DF6E95B00DC7055 /* LaunchScreen.storyboard */; };
+		6B76E9341DF6FB7600DC7055 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B76E9331DF6FB7600DC7055 /* GoogleService-Info.plist */; };
+		6B7F718F1E38BE1200E6982D /* Emotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F71881E38BE1200E6982D /* Emotions.swift */; };
+		6B7F71901E38BE1200E6982D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F71891E38BE1200E6982D /* Extensions.swift */; };
+		6B7F71911E38BE1200E6982D /* EyeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F718A1E38BE1200E6982D /* EyeLayer.swift */; };
+		6B7F71921E38BE1200E6982D /* EyesLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F718B1E38BE1200E6982D /* EyesLayer.swift */; };
+		6B7F71931E38BE1200E6982D /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F718C1E38BE1200E6982D /* FaceView.swift */; };
+		6B7F71941E38BE1200E6982D /* MouthLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7F718D1E38BE1200E6982D /* MouthLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		170F86AFF6645BBF71A91535 /* Pods-firebaseRealtimeDatabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseRealtimeDatabase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseRealtimeDatabase/Pods-firebaseRealtimeDatabase.debug.xcconfig"; sourceTree = "<group>"; };
+		6B261E391DFAD94000D906CB /* ShowEmojiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowEmojiViewController.swift; sourceTree = "<group>"; };
 		6B76E91E1DF6E95B00DC7055 /* firebaseRealtimeDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebaseRealtimeDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B76E9211DF6E95B00DC7055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B76E9231DF6E95B00DC7055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,15 @@
 		6B76E9281DF6E95B00DC7055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B76E92B1DF6E95B00DC7055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B76E92D1DF6E95B00DC7055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B76E9331DF6FB7600DC7055 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B7F71881E38BE1200E6982D /* Emotions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emotions.swift; sourceTree = "<group>"; };
+		6B7F71891E38BE1200E6982D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6B7F718A1E38BE1200E6982D /* EyeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeLayer.swift; sourceTree = "<group>"; };
+		6B7F718B1E38BE1200E6982D /* EyesLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesLayer.swift; sourceTree = "<group>"; };
+		6B7F718C1E38BE1200E6982D /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		6B7F718D1E38BE1200E6982D /* MouthLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MouthLayer.swift; sourceTree = "<group>"; };
+		CC934E909B63FDF209D0FC31 /* Pods_firebaseRealtimeDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseRealtimeDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC66505D664B1DCE04424B75 /* Pods-firebaseRealtimeDatabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseRealtimeDatabase.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseRealtimeDatabase/Pods-firebaseRealtimeDatabase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBE0D7B0CE78318A0B37BF1 /* Pods_firebaseRealtimeDatabase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		279BF9DA93C8D251332BE8B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				170F86AFF6645BBF71A91535 /* Pods-firebaseRealtimeDatabase.debug.xcconfig */,
+				DC66505D664B1DCE04424B75 /* Pods-firebaseRealtimeDatabase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6B76E9151DF6E95B00DC7055 = {
 			isa = PBXGroup;
 			children = (
 				6B76E9201DF6E95B00DC7055 /* firebaseRealtimeDatabase */,
 				6B76E91F1DF6E95B00DC7055 /* Products */,
+				279BF9DA93C8D251332BE8B6 /* Pods */,
+				77A1F4136990BD8CEF2B6BF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +88,44 @@
 			children = (
 				6B76E9211DF6E95B00DC7055 /* AppDelegate.swift */,
 				6B76E9231DF6E95B00DC7055 /* ViewController.swift */,
+				6B261E391DFAD94000D906CB /* ShowEmojiViewController.swift */,
+				6B7F71961E38BE4200E6982D /* Extensions */,
+				6B7F71971E38BE5000E6982D /* FaceView Components */,
 				6B76E9251DF6E95B00DC7055 /* Main.storyboard */,
 				6B76E9281DF6E95B00DC7055 /* Assets.xcassets */,
 				6B76E92A1DF6E95B00DC7055 /* LaunchScreen.storyboard */,
 				6B76E92D1DF6E95B00DC7055 /* Info.plist */,
+				6B76E9331DF6FB7600DC7055 /* GoogleService-Info.plist */,
 			);
 			path = firebaseRealtimeDatabase;
+			sourceTree = "<group>";
+		};
+		6B7F71961E38BE4200E6982D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6B7F71881E38BE1200E6982D /* Emotions.swift */,
+				6B7F71891E38BE1200E6982D /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		6B7F71971E38BE5000E6982D /* FaceView Components */ = {
+			isa = PBXGroup;
+			children = (
+				6B7F718C1E38BE1200E6982D /* FaceView.swift */,
+				6B7F718B1E38BE1200E6982D /* EyesLayer.swift */,
+				6B7F718A1E38BE1200E6982D /* EyeLayer.swift */,
+				6B7F718D1E38BE1200E6982D /* MouthLayer.swift */,
+			);
+			name = "FaceView Components";
+			sourceTree = "<group>";
+		};
+		77A1F4136990BD8CEF2B6BF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC934E909B63FDF209D0FC31 /* Pods_firebaseRealtimeDatabase.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B76E9301DF6E95B00DC7055 /* Build configuration list for PBXNativeTarget "firebaseRealtimeDatabase" */;
 			buildPhases = (
+				3748E38F76CACC062B8C7117 /* [CP] Check Pods Manifest.lock */,
 				6B76E91A1DF6E95B00DC7055 /* Sources */,
 				6B76E91B1DF6E95B00DC7055 /* Frameworks */,
 				6B76E91C1DF6E95B00DC7055 /* Resources */,
+				7CC917C75445BEEEEE0B975F /* [CP] Embed Pods Frameworks */,
+				374BF455576F17C044307A44 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,7 +158,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Niklas Danz";
 				TargetAttributes = {
 					6B76E91D1DF6E95B00DC7055 = {
@@ -125,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B76E92C1DF6E95B00DC7055 /* LaunchScreen.storyboard in Resources */,
+				6B76E9341DF6FB7600DC7055 /* GoogleService-Info.plist in Resources */,
 				6B76E9291DF6E95B00DC7055 /* Assets.xcassets in Resources */,
 				6B76E9271DF6E95B00DC7055 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +200,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3748E38F76CACC062B8C7117 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		374BF455576F17C044307A44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseRealtimeDatabase/Pods-firebaseRealtimeDatabase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CC917C75445BEEEEE0B975F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseRealtimeDatabase/Pods-firebaseRealtimeDatabase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B76E91A1DF6E95B00DC7055 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B7F71901E38BE1200E6982D /* Extensions.swift in Sources */,
+				6B7F71921E38BE1200E6982D /* EyesLayer.swift in Sources */,
+				6B7F71911E38BE1200E6982D /* EyeLayer.swift in Sources */,
+				6B7F71931E38BE1200E6982D /* FaceView.swift in Sources */,
 				6B76E9241DF6E95B00DC7055 /* ViewController.swift in Sources */,
+				6B261E3A1DFAD94000D906CB /* ShowEmojiViewController.swift in Sources */,
+				6B7F71941E38BE1200E6982D /* MouthLayer.swift in Sources */,
 				6B76E9221DF6E95B00DC7055 /* AppDelegate.swift in Sources */,
+				6B7F718F1E38BE1200E6982D /* Emotions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +305,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +355,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -257,23 +382,33 @@
 		};
 		6B76E9311DF6E95B00DC7055 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170F86AFF6645BBF71A91535 /* Pods-firebaseRealtimeDatabase.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 53UYHTB3RG;
 				INFOPLIST_FILE = firebaseRealtimeDatabase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.nikd.firebaseRealtimeDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		6B76E9321DF6E95B00DC7055 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC66505D664B1DCE04424B75 /* Pods-firebaseRealtimeDatabase.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 53UYHTB3RG;
 				INFOPLIST_FILE = firebaseRealtimeDatabase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.nikd.firebaseRealtimeDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +435,7 @@
 				6B76E9321DF6E95B00DC7055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
